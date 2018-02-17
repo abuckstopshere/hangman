@@ -108,8 +108,8 @@ function updateLoss() {
 function print(arr) {
     arr.forEach(function(idName) {
         // If the idName variable is an array do this
-        if (Array.isArray(idName)) {
-            document.getElementById(idName).textContent = window[idName].join('')
+        if (Array.isArray(window[idName])) {
+            document.getElementById(idName).textContent = window[idName].join(' ')
         }
         // If the idName variable is any other type besides array do this
         else {
