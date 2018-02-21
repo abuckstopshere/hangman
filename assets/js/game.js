@@ -92,6 +92,7 @@ function updateScore() {
 }
 function updateWin() {
     //add what happens if the user wins code here
+    alert("You won!!")
     winCounter += 1
     startGame()
         //Make a call to the startGame function here. 
@@ -99,6 +100,7 @@ function updateWin() {
 }
 function updateLoss() {
     //add what happens if the user loses code here
+    alert("You lost...")
     lossCounter += 1
     startGame()
         //Make a call to the startGame function here.
